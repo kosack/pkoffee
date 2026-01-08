@@ -1,0 +1,12 @@
+[workspace]
+authors = ["Karl Kosack <karl.kosack@cea.fr>"]
+channels = ["conda-forge"]
+name = "pkoffee"
+platforms = ["linux-64", "linux-aarch64", "osx-64", "osx-arm64", "win-64"]
+version = "0.1.0"
+
+[tasks]
+test = "pytest"
+
+[dependencies]
+pytest = ">=9.0.2,<10"
