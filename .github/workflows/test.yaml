@@ -6,4 +6,6 @@ jobs:
     unit-tests:
         runs-on: ubuntu-latest
         steps:
-        - run: echo "Running tests for ${{ github.repository }}"
+        - run: "echo 'Running tests for ${{ github.repository }}'"
+        - run: "echo 'Repo: ${{ github.repository }}'"
+        - run: "echo 'Branch: ${{ github.ref }}'"
