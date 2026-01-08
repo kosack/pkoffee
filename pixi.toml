@@ -10,3 +10,4 @@ test = "pytest"
 
 [dependencies]
 pytest = ">=9.0.2,<10"
+ruff = ">=0.14.10,<0.15"
