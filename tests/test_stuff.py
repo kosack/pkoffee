@@ -1,4 +1,4 @@
 #!/usr/bin/env python3
 
-def dummy_test():
+def test_dummy():
     assert True
